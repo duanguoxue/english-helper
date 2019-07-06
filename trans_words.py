@@ -12,7 +12,6 @@ from stardict import LemmaDB
 from stardict import DictCsv
 import stopwords
 
-print(stopwords.stopwords)
 if len(sys.argv) < 2:
     sys.exit(0)
 
